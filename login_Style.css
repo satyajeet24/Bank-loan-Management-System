@@ -1,0 +1,90 @@
+body
+{
+
+margin:0;
+padding:0;
+background: url(bk.jpg);
+background-size:cover;
+font-family: sans-serif;
+}
+#loginbox
+{
+
+position: absolute;
+top: 300px;
+left: 600px;
+bottom:200px;
+padding:50px 40px 100px 40px;
+width:350px;
+height:450px;
+background-color: rgba(0,0,0,.5);
+}
+
+
+#user
+{
+width: 100px;
+height: 100px;
+border-radius: 50%;
+overflow: hidden;
+position: absolute;
+top: calc(-100px/2);
+left: calc(50% - 50px);
+}
+
+
+h2
+{
+   margin:0;
+   padding: 0 0 20px;
+   color:#efea50;
+   text-align: center;
+
+
+}
+#loginbox p
+{
+
+  margin:0;
+  padding:0;
+ font-weight: bold;
+ color: #fff;
+
+}
+#loginbox input
+{
+ width: 100%;
+ margin-bottom: 20px;
+
+}
+#loginbox input[type="text"]
+#loginbox input[type="password"]
+{
+  outline:none;
+  
+  
+  border-bottom-style:1px solid black;
+  background: transparent;
+  outline:none;
+  
+  height:30px;
+  color:#fff;
+  font-size: 18px;
+
+
+}
+:: palceholder
+{
+	
+	color:rgba(255,255,255,.5);
+  }
+  
+  #loginbox input[type="submit"]
+  {
+     border:none;
+     outline:none;  
+  color:#fff;
+    height:40px;
+    font-size:18px;
+     background:#ff245e;
+  }
